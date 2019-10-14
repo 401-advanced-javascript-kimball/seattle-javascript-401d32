@@ -24,7 +24,8 @@ function getRandomStudent() {
     return student;
   }
   return 'All Students have been randomly selected :)';
-}
+};
 
-console.log('Random Student function loaded, run with `randomStudent()`')
+console.log('Random Student function loaded, run with `randomStudent()`');
 repl.start('> ').context.randomStudent = getRandomStudent;
+
