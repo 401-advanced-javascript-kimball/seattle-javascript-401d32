@@ -10,7 +10,7 @@
 
    a) This should use the node `fs` module.
 
-3) A class method called replace that takes in two arguments: `find` and `replace` and searches the array of words and replaces it.
+3) A class method called `replace` that takes in two arguments: `find` and `replace` and searches the array of words and replaces it.
 
    a) This method should return a promise.
 
