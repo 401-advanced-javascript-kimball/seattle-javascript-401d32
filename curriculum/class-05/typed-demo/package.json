@@ -1,0 +1,19 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start:db": "mkdir -p ./db && mongod --dbpath ./db"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^5.2.8",
+    "mongoose": "^5.7.5",
+    "supertest": "^4.0.2"
+  }
+}
