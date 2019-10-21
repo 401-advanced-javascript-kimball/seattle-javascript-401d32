@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "id": "192837648923764",
+      "name": "another name",
+      "description": "something new",
+      "display_name": "display test"
+    }
+  ],
+  "products": [
+    {
+      "id": "23980471029875",
+      "name": "another name",
+      "category": "another name",
+      "display_name": "things for tests",
+      "description": "Describing the product"
+    }
+  ]
+}
