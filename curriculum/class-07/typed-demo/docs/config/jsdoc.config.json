@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": [
+      "./lib"
+    ]
+  },
+  "opts": {
+    "destination": "./docs/",
+    "recurse": true
+  }
+}
