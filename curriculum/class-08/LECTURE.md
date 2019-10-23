@@ -12,6 +12,7 @@
   - cors lets is grab resources that are hosted at a different origin.
 - Morgan
   - Allows better logging across our API.
+  - METHOD : ROUTE : RESPONSE_SIZE : RESPONSE_TIME
 
 ## Seperation of Concerns
   - Routing files should only be concerned with routing logic:
