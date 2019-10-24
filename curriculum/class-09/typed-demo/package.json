@@ -1,0 +1,19 @@
+{
+  "name": "typed-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:db": "mkdir -p db && mongod --dbpath db"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1"
+  }
+}
