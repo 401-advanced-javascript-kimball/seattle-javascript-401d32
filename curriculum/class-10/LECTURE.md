@@ -9,17 +9,44 @@
 ## Graphql
 - Graphql is an alternative to REST:
   - While REST has a huge list of endpoints and methods, Graphql says:
-    - Lets just use one ednpoint and onde method, and let the user specify exclty what they want.
-    - Graphql functions by letting developers specifiy a Schema, which has a list queries that can be performed on data, and their respective resolvers:
+    - Lets just use one endpoint and one method, and let the user specify exactly what they want.
+    - Graphql functions by letting developers specify a Schema, which has a list queries that can be performed on data, and their respective resolvers:
     - Resolver is just whatever operations are needed to fulfill a query.
 
 ```js
-type Query{
+type Query {
   people: [peopleTypes]
 }
 
 {
   people: () => people.find();  
 }
-
 ```
+
+Mutations
+- When we want to make changes to our data, graphql lets us create a special type of query known as a `mutation`:
+- These are declared much like queries but should be placed under `type Mutation`.
+
+```js
+input MessageInput {
+  content: String
+  author: String
+}
+
+type Message {
+  id: ID!
+  content: String
+  author: String
+}
+
+type Query {
+  getMessage(id: ID!): Message
+}
+
+type Mutation {
+  createMessage(input: MessageInput): Message
+  updateMessage(id: ID!, input: MessageInput): Message
+}
+```
+
+
