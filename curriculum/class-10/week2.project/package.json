@@ -1,0 +1,19 @@
+{
+  "name": "week2.project",
+  "version": "1.0.0",
+  "description": "> The following is an UNGRADED pair programming assignment.  Please take the next 45 minutes to complete as much of the following tasks.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
