@@ -8,6 +8,7 @@ const products = require('./products');
 
 mongoose.connect('mongodb://localhost:27017/class10', {
   useNewUrlParser: true,
+  useCreateIndex: true,
   useUnifiedTopology: true
 });
 

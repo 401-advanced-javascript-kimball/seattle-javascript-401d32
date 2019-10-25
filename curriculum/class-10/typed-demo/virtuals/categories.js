@@ -1,16 +1,11 @@
 'use strict';
 
 const mongoose = require('mongoose');
-require('./products');
 
 const categories = mongoose.Schema({
-  name: String,
-  description: String,
-}, {
-  toObject: { virtuals: true },
-}, {
-  toJSON: { virtuals: true }
-});
+  name: { type: String, required: true },
+  description: { type: String, required: true }
+}, { toObject: { virtuals: true }, toJSON: { virtuals: true } });
 
 categories.virtual('products', {
   ref: 'products',
