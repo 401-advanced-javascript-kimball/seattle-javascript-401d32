@@ -1,6 +1,6 @@
 # Class 10
 
-## Mongogoose Virtauls:
+## Mongogoose Virtuals:
 - categories.virtual
 - Let us populate a virtual field that doesn't formally exist on our schema.
 
