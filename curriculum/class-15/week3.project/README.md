@@ -10,7 +10,7 @@ Implement a fully functional API server *WITH* authentication for sharing images
 - This project will follow our standard [lab requirements](https://github.com/codefellows/seattle-javascript-401d32/blob/master/reference/submission-instructions/labs/README.md) for configuration, and deployment!
 - Your API must contain the following functionality:
 
-    #### *Packages*
+    #### Packages
     - Use the `package.json` provided to install the following project dependencies:
         - `express`
         - `mongoose`
@@ -23,7 +23,7 @@ Implement a fully functional API server *WITH* authentication for sharing images
         - `bcypt`
         - `jsonwebtoken`
 
-    #### *Routes*
+    #### Routes
     - Authentication routes using the following:
         - Basic Authentication routes:
             - `POST /signin`
@@ -51,7 +51,7 @@ Implement a fully functional API server *WITH* authentication for sharing images
         - `DELETE /image/:id`
             - Removes and `image` from the database where the `_id` associated with the `image` matches the `id` passed in the request parameter.
             
-    #### *Middleware*
+    #### Middleware
     - Authentication middleware.
         - Create a middleware that can authenticate any route that uses the authentication middleware.
             - Should be able to parse `tokens` passed in a bearer auth header.
@@ -59,7 +59,7 @@ Implement a fully functional API server *WITH* authentication for sharing images
             
     - **BONUS POINTS**: Create a middleware that validates both the `PUT` and `DELETE` route, so that only the user with an `_id` property that matches the `user_id` on the `image` can successfully make the request.
      
-    #### *Models*
+    #### Models
     - **User Model** for Authentication, using the following schema:
         - `username {string}` - A unique name for each user, required for all users.
         - `password {string}` - Hashed string used to authenticate users, required for all users.
