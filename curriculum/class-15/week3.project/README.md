@@ -44,7 +44,7 @@ Implement a fully functional API server *WITH* authentication for sharing images
             - Returns ONE `image` from the database with a matching `_id` passed as `id` in a request parameter. 
         - `GET /image/:userId`
             - Returns ALL `images` from the database where the `user_id` matches the `userId` passed in a request parameter. 
-        - `POST /image/`
+        - `POST /images`
             - Create a new `image` that is saved to the database.
         - `PUT /image/:id`
             - Updates and `image` which has an `_id` that matches the `id` passed in a request parameter. 
