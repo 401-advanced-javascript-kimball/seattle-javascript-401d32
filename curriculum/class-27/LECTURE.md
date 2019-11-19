@@ -47,7 +47,7 @@
   
 ```scss
 head {
-  color: blue
+  color: blue;
 
   p {
     color: pink;
@@ -67,9 +67,25 @@ head {
 - Using a library to pre-render our react code, and then compare that information with a test renderer.
 - Testing the state of your components.
 
+## Deployment checklist
+- Make sure you have an up to date version of these config files:
+  - `.travis.yml`
+  - `.eslintrc.json`
+  - `.gitignore`
+  - `package.json`
+    - these `scripts` must be present:
+```json
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.js"
+```
+- Push your code up to github and make sure travis is passing.
+- Run `npm build` to make sure our static site files are created properly. 
+
 ## S3 Deployment
- 1) Disable persmission Blocking
-    1) Thgis shuold be prompts on bucket creation
+ 1) Disable permission Blocking
+    - This should be prompted on bucket creation.
  2) Go to Properties and enable static website hosting.
  3) Upload files
-    1) Click next until you see a section about permission, and make suer they are unblocked!
+    - Click next until you see a section about permission, and make suer they are unblocked!
