@@ -1,35 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import Header from './components/header';
+import Routes from './components/routes';
+import Footer from './components/footer';
 
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-
-            </li>
-            <li>
-              <Link to="/about-me">About Me</Link>
-            </li>
-          </ul>
-        </nav>
-        <Route
-          exact
-          path="/"
-          render={() => {
-            return <h1>My App!</h1>
-          }}
-        />
-        <Route
-          exact
-          path="/about-me"
-          render={() => {
-            return <h1>You've reached about me!</h1>
-          }}
-        />
+        <Header />
+        <Routes />
+        <Footer text="Class 29" />
       </BrowserRouter>
     )
   }

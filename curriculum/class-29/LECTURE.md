@@ -55,3 +55,17 @@ return (
 ```jsx
 <Route path="/about-me" component={AboutMe}/>
 ```
+
+### Building Complex Apps
+
+- Our apps are going to start to be filled with manhy more components
+- We need to plan out how are apps are composed:
+  - What is the pupose of my component?
+    - Display Data? What data does it need, from where
+    - Collecting from data? What sort of data does it need?
+    - Fetching from an API? When?
+    - Toggling / changing component state?
+  - What is our App hierarchy?
+    - Is there any data that children data depend on?
+    - What's the relationship between children?
+  - Helps to think of your components as "Card" in a "Deck".
