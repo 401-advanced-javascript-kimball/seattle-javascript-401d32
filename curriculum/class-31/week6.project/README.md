@@ -15,6 +15,7 @@ We will be focused on creating React Components that can interface with the prov
     - Fetches messages from a local backend server when the component mounts and displays them to the user.
     - Can POST a new `Message` using a form.
     - Connects to open `socket.io` connection from a local backend server.
+        - Listens for a `MESSAGE_POST` event from the backend and adds them to the displayed messages. 
 - Styling with SASS!
     - Style your components with whatever Styling specs make you happy :)
     
