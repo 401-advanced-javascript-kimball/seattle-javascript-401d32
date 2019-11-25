@@ -12,7 +12,7 @@ We will be focused on creating React Components that can interface with the prov
     - Conditionally render `props.children`, depending on whether login credentials are present.
     - Has a class method called `logout` that removes user details.
 - Create a component called `Messages` that will be rendered as the Auth components `props.children`, that can perform these features:
-    - Fetches messages from a local backend server when the component mounts.
+    - Fetches messages from a local backend server when the component mounts and displays them to the user.
     - Can POST a new `Message` using a form.
     - Connects to open `socket.io` connection from a local backend server.
 - Styling with SASS!
