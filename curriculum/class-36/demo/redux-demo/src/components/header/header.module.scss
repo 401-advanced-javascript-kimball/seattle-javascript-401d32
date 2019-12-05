@@ -1,0 +1,11 @@
+$hotpink: pink;
+$coolgreen: #baddad;
+
+.header {
+  background: $coolgreen;
+  padding: 1em;
+
+  h1 {
+    color: $hotpink;
+  }
+}
