@@ -1,6 +1,6 @@
 # LAB - React Native - Milestone 2: Polish and Delivery
 
-Continue to work on your phone application. Deploy to either Google Play or the Apple App Store.
+Continue to work on your phone application. Deploy to either Google Play, Apple App Store, or as an expo app.
 
 ## Before you begin
 Refer to *Getting Started*  in the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for complete setup, configuration, deployment, and submission instructions.
