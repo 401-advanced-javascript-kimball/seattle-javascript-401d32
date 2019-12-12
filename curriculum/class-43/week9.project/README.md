@@ -20,9 +20,9 @@ This is an UNGRADED pair programming assignment. Please take the next hour to co
     - This needs to connect to the remote server using `socket.io-client`.
     - Connection needs to be made at `https://codefellows-message-server.herokuapp.com`
   - Fetching all current messages at API endpoint:
-    - GET `https://codefellows-messages-server.herokuapp.com/api/messages`
+    - GET `https://codefellows-message-server.herokuapp.com/api/messages`
 - Create a `Messages` component that can connect to your Redux store and do the following things:
-  - Uses a redux action to suscribe to events when the component mounts.
+  - Uses a redux action to subcribe to events when the component mounts.
   - Grabs messages from Redux state.
      - Messages should be displayed as a list.
   - Uses a form and input handlers to emit an addMessage event from our redux actions.
