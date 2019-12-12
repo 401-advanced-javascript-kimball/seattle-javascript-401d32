@@ -1,4 +1,4 @@
-# Babel, Webpack, and Typscript
+# Babel, Webpack, and Typescript
 
 ## Learning Objectives
 
