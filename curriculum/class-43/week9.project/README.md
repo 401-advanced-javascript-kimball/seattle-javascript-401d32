@@ -19,6 +19,7 @@ This is an UNGRADED pair programming assignment. Please take the next hour to co
   - Subscribing to socket events.
     - This needs to connect to the remote server using `socket.io-client`.
     - Connection needs to be made at `https://codefellows-message-server.herokuapp.com`
+    - The socket should respond to a Socket event 'MESSAGE' and dispatch the payload from the event to the store.
   - Fetching all current messages at API endpoint:
     - GET `https://codefellows-message-server.herokuapp.com/api/messages`
 - Create a `Messages` component that can connect to your Redux store and do the following things:
