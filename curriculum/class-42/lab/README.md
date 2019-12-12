@@ -1,6 +1,6 @@
 # LAB - React Native - Milestone 2: Polish and Delivery
 
-Continue to work on your phone application. Deploy to either Google Play or the Apple App Store.
+Continue to work on your phone application. Deploy to either Google Play, Apple App Store, or as an expo app.
 
 ## Before you begin
 Refer to *Getting Started*  in the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for complete setup, configuration, deployment, and submission instructions.
@@ -19,10 +19,11 @@ Create your first Phone App. What it does and how it looks is up to you.
 As you complete your RNA, switch your focus to the user experience.
 
 * Quality and Thoughtful Styling using `css-in-js`
+* Using a Componenet UI Framework
 * Right sized tap targets, good contrast
 * Dark and Light Modes
 * Well thought through UX
-  * Be considerate of one-handers, thumbers and pointers
+  * Be considerate of accessibilty.
 
 
 ### Stretch Goal
@@ -32,7 +33,5 @@ As you complete your RNA, switch your focus to the user experience.
 
 
 ###  Delivery
-
-In addition to the End User documentation noted in the app requirements, you will be presenting your application live to the class.
 
 Prepare a good working demo, be ready to jump into code sample and answer questions related to "How the heck did you do that??"
