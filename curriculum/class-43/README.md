@@ -1,14 +1,15 @@
-# Gatsby and Next
+# Babel, Webpack, and Typscript
 
 ## Learning Objectives
 
 * Describe and Define
-  * Server-Side Rendering and SEO
-  * The Gatsby Ecosystem
-  * The Next.js Ecosystem
+  * Babel
+  * Transpiling advanced javascript syntax.
+  * Dependency bundling
+  * Weppback and webpack.config.js
 * Execute
-  * Build a simple Blog site with Gatsby
-  * Build a simple Blog site with Next.js
+  * Build a simple React application with Webpack
+  * Transpile code with Babel and Typescript
   
 
 
